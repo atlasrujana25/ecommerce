@@ -3,30 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Form</title>
-    <link rel="stylesheet" href="style.css">
+    <title>eCommerce Store</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1 class="logo">ShopLogo</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="form-container">
-        <h2>Contact Form</h2>
-        <form action="#" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br>
+    <!-- Main Section with Product Categories -->
+    <main>
+        <div class="container">
+            <h2>Featured Categories</h2>
+            
+            <section class="category">
+                <h3>Women Dresses</h3>
+                <div class="product-grid">
+                    <!-- Women's Dress 1 -->
+                    <div class="product">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.7mU0BP0tokVa7X3DLb29bQHaLH&pid=Api&P=0&h=180" alt="Women Dress 1">
+                        <h3>Women Dress 1</h3>
+                        <p>$29.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Women's Dress 2 -->
+                    <div class="product">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.CqnmXlI_NNWdsGLDdhHypgAAAA&pid=Api&P=0&h=180" alt="Women Dress 2">
+                        <h3>Women Dress 2</h3>
+                        <p>$39.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Women's Dress 3 -->
+                    <div class="product">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.J1Kfg_hH1uayHfEYU7teswHaJ4&pid=Api&P=0&h=180" alt="Women Dress 3">
+                        <h3>Women Dress 3</h3>
+                        <p>$49.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </section>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br>
+            <section class="category">
+                <h3>Men Dresses</h3>
+                <div class="product-grid">
+                    <!-- Men's Dress 1 -->
+                    <div class="product">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.S-rBos62_xl80UxXVH1TVgHaJF&pid=Api&P=0&h=180" alt="Men Dress 1">
+                        <h3>Men Dress 1</h3>
+                        <p>$34.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Men's Dress 2 -->
+                    <div class="product">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.UgRHMeMi4zhBY3HXnNLtmAHaMw&pid=Api&P=0&h=180" alt="Men Dress 2">
+                        <h3>Men Dress 2</h3>
+                        <p>$44.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Men's Dress 3 -->
+                    <div class="product">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.zZgbwM6rBbh0pU-YQgbIGwHaLw&pid=Api&P=0&h=180" alt="Men Dress 3">
+                        <h3>Men Dress 3</h3>
+                        <p>$54.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </section>
 
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required><br>
+            <section class="category">
+                <h3>Shoes</h3>
+                <div class="product-grid">
+                    <!-- Shoe 1 -->
+                    <div class="product">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.uhlH_kKHKAv1YWCelc4icgHaFj&pid=Api&P=0&h=180" alt="Shoe 1">
+                        <h3>Shoe 1</h3>
+                        <p>$49.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Shoe 2 -->
+                    <div class="product">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.vLzIPjw0JtJQ0U4m4e3irwHaHp&pid=Api&P=0&h=180" alt="Shoe 2">
+                        <h3>Shoe 2</h3>
+                        <p>$59.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                    <!-- Shoe 3 -->
+                    <div class="product">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.jHEk1yp7fieWhUVGHFjCTgHaE8&pid=Api&P=0&h=180" alt="Shoe 3">
+                        <h3>Shoe 3</h3>
+                        <p>$69.99</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </section>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <!-- Add more categories as needed -->
+        </div>
+    </main>
 
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 eCommerce Store. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
-</html>
 </html>
